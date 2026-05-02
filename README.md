@@ -142,39 +142,6 @@ public/resume/rishi-kesh-resume.pdf
 public/resume/rishi-kesh-resume.html
 ```
 
----
-
-## 🌐 Deployment Guide
-
-### Deploy on Vercel
-
-1. Push the project to GitHub.
-2. Go to [Vercel](https://vercel.com).
-3. Click **New Project**.
-4. Import your GitHub repository.
-5. Keep framework as **Next.js**.
-6. Click **Deploy**.
-
-Vercel will automatically run:
-
-```bash
-npm run build
-```
-
-### Build locally
-
-```bash
-npm run build
-```
-
-### Start production server locally
-
-```bash
-npm run start
-```
-
----
-
 ## 📂 Folder Structure
 
 ```txt
@@ -302,22 +269,14 @@ npm run build
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
-You are free to use, modify, and distribute it with attribution.
-
----
-
 ## 👨‍💻 Author
 
 **Rishi Kesh**  
 MCA Student | Full Stack Developer & ML Enthusiast
 
 - Email: [rishikesh2230@gmail.com](mailto:rishikesh2230@gmail.com)
-- LinkedIn: [linkedin.com/in/rishikesh-k-756b1a236](https://linkedin.com/in/rishikesh-k-756b1a236)
-- GitHub: [github.com/githubrishi2230](https://github.com/githubrishi2230)
+- LinkedIn: [k-rishikesh](https://www.linkedin.com/in/k-rishikesh-756b1a236/)
+- GitHub: [Rishikesh-nitkkr](https://github.com/Rishikesh-nitkkr)
 
 ---
 
