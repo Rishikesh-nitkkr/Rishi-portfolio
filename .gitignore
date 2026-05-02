@@ -1,0 +1,35 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# production / deployment
+.vercel/
+
+# environment
+.env
+.env.*
+!.env.example
+
+# logs and diagnostics
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# generated local screenshots / QA artifacts
+/qa-*.png
+/portfolio-*.png
+/ui-*.png
+/screenshots/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo

@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 96px;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+::selection {
+  background: rgba(124, 58, 237, 0.45);
+  color: #ffffff;
+}
+
+@layer base {
+  a,
+  button {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply min-w-0 border border-white/10 bg-white/[0.045] shadow-glow backdrop-blur-xl;
+  }
+
+  .section-shell {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+    overflow-wrap: anywhere;
+  }
+}
